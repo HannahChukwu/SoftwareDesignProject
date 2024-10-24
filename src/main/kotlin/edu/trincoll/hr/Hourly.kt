@@ -18,6 +18,6 @@ class Hourly  (name: String, id: Int, val rate: Double, var hours: Double = 80.0
     }
 
     override fun toString(): String {
-        return "Hourly Employee(name=$name, id = $id, rate=$rate, hours=$hours"
+        return "Hourly(name=$name, id=$id, rate=$rate, hours=$hours)"
     }
 }
